@@ -1,0 +1,47 @@
+.card {
+    margin-bottom: 10px;
+    padding: 30px;
+}
+
+.cardCharecter {
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.cardCharecter .image {
+    width: 320px;
+    height: 370px;
+}
+
+.card a.details {
+    margin-top: 0.5em;
+    background-color: var(--grey) !important;
+    color: white !important;
+}
+
+.card a.details:hover {
+    background-color: var(--light-grey) !important;
+    color: var(--grey) !important;
+}
+
+.card div.details {
+    min-height: 1px;
+    padding: 1.25rem;
+    background: white;
+}
+
+.card p {
+    margin-bottom: .5em;
+}
+
+.name {
+    font-size: 16px;
+    margin-bottom: 0.75rem;
+    color: var(--grey);
+    font-weight: bold;
+}
+
+.image {
+    display: block;
+    width: 100%;
+}
